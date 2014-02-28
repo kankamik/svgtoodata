@@ -1,0 +1,41 @@
+{
+  "name": "grunt-svgtoodata",
+  "version": "0.0.1",
+  "description": "Optimise SVG files with DataUri option, make them scalable and automatically create various colorised version. Output in any format",
+  "homepage": "",
+  "repository": "",
+  "bugs": "/issues",
+  "author": {
+    "name": "Mikko Kankaanranta",
+    "email": "mikko.kankaanranta@gmail.com"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kankamik/svgtoodata"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.2.0",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt": "~0.4.0rc2",
+    "load-grunt-tasks": "~0.2.0",
+    "jshint-stylish": "~0.1.3",
+    "svgo": "~0.4.4",
+    "handlebars": "~1.1.2"
+  },
+  "scripts": {
+    "test": "grunt test"
+  }
+}

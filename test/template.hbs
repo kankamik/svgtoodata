@@ -1,0 +1,9 @@
+{{ListName}}: (
+{{#Files}} 
+	{{Name}}: (
+	{{#Files}} 
+		{{filename}}: url('{{filedata}}'){{#unless @last}},{{/unless}}  
+	{{/Files}}
+	),
+{{/Files}}
+);
